@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奥崎恭平のポートフォリオ</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">
+            奥崎恭平の<br><span>ポートフォリオ</span>
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Learned</a>
+            <a href="#projects">Projects</a>
+            <a href="#mods">MODs</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Kyohei Okuzaki.</span></h1>
+            <h3 class="text-animation">
+                <span></span>
+            </h3>
+            <p>アクセスいただきありがとうございます。<br>このページでは奥崎恭平のWeb開発技術に関する学習成果や、<br>これまでに携わったプロジェクトを紹介しています。</p>
+            <!-- <div class="social-icons">
+                <a href="#">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+            </div> -->
+
+            <div class="btn-group">
+                <!-- <a href="#" class="btn">Hire</a> -->
+                <a href="#contact" class="btn">お問い合わせ</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="./image/image1.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image/image2.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>奥崎 恭平</h3>
+            <h3 class="text-animation">
+                <span></span></h3>
+            <p>趣味： BBQ / 釣り / カラオケ / ピアノ / ゲーム / 自主制作活動<br><br>1993年生まれ 青森県出身<br>青森県立青森工業高校 電子科を卒業後、H社製昇降機のメンテナンスエンジニアとして従事。その後は接客業や保育士といった異業種にも挑戦。<br><br>
+                趣味の一環として、ゆっくり解説動画やゲームMOD等の制作活動にも注力。<br><br>
+               持ち前の探究心や向上心を武器に、職業訓練校「ジソウスイッチ」にてSE・Webプログラマーに必要なイロハを学ぶ。</p>
+            <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">主な学習内容</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code-block"></i>
+                    <h4>Web開発技術</h4>
+                    <p>HTML,CSS,Javascriptを用いた基本的なWeb開発技術を学び、校内テストや成果発表会を経て実践的なスキルを習得しました。<br><br>また、mysqlを用いたDB設計や、PHPでのサーバーサイドスクリプトなどのバックエンド技術を併せて学習しました。<br><br>開発環境：HTML / CSS / Javascript / PHP / mysql /JAVA
+                    </p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxl-github"></i>
+                    <h4 style="margin-bottom: 0;">Github</h4>
+                    <h4 style="margin-top: 5px;">プロジェクト管理</h4>
+                    <p>実務における円滑なワークフローを実現するために、Githubでのソースコードの共有・管理方法を学習しました。<br><br>グループワーク実習では、メンバー同士の活発なディスカッションを通じて共同開発や問題解決に取り組み、チームワークとコミュニケーションスキルを磨いてきました。
+                    </p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxl-shopify"></i>
+                    <h4 style="margin-bottom: 0;">shopify</h4>
+                    <h4 style="margin-top: 5px;">ECサイト構築</h4>
+                    <p> ECプラットフォーム"shopify"におけるノーコードでのショップ構築・運営の設定について学習しました。<br><br>また、shopify-cli 3.0とGithubを連携したローカル開発環境において、フレキシブルにテーマをカスタマイズする手法を習得しました。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+
+        <div class="projects-box">
+            <div class="project-card">
+                <img src="./image/project1.png" alt="">
+
+                <h3>自己紹介ページ</h3>
+
+                <p>HTML,CSS,Javascriptを扱った初めての作品。<br>
+                    ずんだもんが喋る、<a href="https://www.freecodecamp.org/" target="_blank">Lorem Picsum</a>から背景画像をランダムで取得する、ミニゲームを実装するなど、初心者なりにやってみたい！と思った機能を実装しました。<br><br>
+                    訓練開始から1～2ヶ月程度の成果です。
+                </p>
+                <div class="btn-wrapper">
+                    <a href="https://www.google.com" target="_blank" class="btn">プレビュー</a>
+                    <a href="https://github.com/okuzaki1208/20240307_self_introduction" target="_blank" class="btn"><i class="bx bxl-github"></i>Github</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./image/project2.png" alt="">
+
+                <h3>X（旧Twitter）</h3>
+                <h3 style="margin-top: -20px;">ライクSNS</h3>
+
+                <p>PHPカリキュラムの成果発表で提出した、<br>XライクなSNSです。<br><a href="https://giphy.com/" target="_blank">giphy.com</a>のAPIを使用してトレンド画像を取得するアイディアを盛り込みました。<br>訓練開始から2～3ヶ月程度の成果です。
+                </p>
+                <div class="btn-wrapper">
+                    <a href="https://www.google.com" target="_blank" class="btn">プレビュー</a>
+                    <a href="https://github.com/okuzaki1208/20240325_SNS_practice" target="_blank" class="btn"><i class="bx bxl-github"></i>Github</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./image/project3.png" alt="">
+
+                <h3>ポケモンカードショップ</h3>
+
+                <p>Githubを活用した初めてのグループワーク作品。<br>
+                    ポケモンカードを題材に、ユーザー登録・商品購入・バトル機能を実装しました。<br><br>
+                    <!-- また、JSON・AJAXを使用し、リロード不要の商品ソート・在庫操作を可能にしました。<br>
+                    訓練開始から4ヶ月程度の成果です。<br><br> -->
+                    ※PCブラウザでの利用を想定して設計しています。<br>
+                    ※スマートフォンをご利用の方は、Githubの概要にてページの全容を確認いただけます。
+                </p>
+                <div class="btn-wrapper">
+                    <div class="btn">プレビュー</div>
+                    <div class="btn"><i class="bx bxl-github"></i>Github</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./image/project4.png" alt="">
+
+                <h3>shopify</h3>
+                <h3 style="margin-top: -20px;">アパレルショップ</h3>
+
+                <p><a href="https://swiperjs.com/" target="_blank">swiper.js</a>を活用し、既定より高機能なスライドショーを扱えるカスタムセクションを実装しました。<br>
+                    ノーコードによるショップのレイアウト調整も行いました。<br>
+                    プレビュー用パスワード:abc123
+                </p>
+                <div class="btn-wrapper">
+                    <a href="https://20240627-okuzaki.myshopify.com/" target="_blank" class="btn">プレビュー</a>
+                    <div class="btn"><i class="bx bxl-github"></i>Github</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./image/project5.gif" alt="">
+
+                <h3>フィラーワード</h3>
+                <h3 style="margin-top: -20px;">カウンター</h3>
+
+                <p>毎日の3分間スピーチの中で、「"えっと" "あのー"などの言い淀みを意識して話そう。」「奥崎さんならカウンターを作ってくれそう（笑）」という話題の中、本当に生まれてしまったジョーク的ツール :)
+                </p>
+                <div class="btn-wrapper">
+                    <div class="btn">プレビュー</div>
+                    <div class="btn"><i class="bx bxl-github"></i>Github</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./image/project6.png" alt="">
+
+                <h3 style="margin-top: 80px;">Coming soon...</h3>
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+    <section class="projects" id="mods">
+        <h2 class="heading">MODs</h2>
+
+        <div class="projects-box">
+            <div class="project-card">
+                <img src="./image/mod1.png" alt="">
+
+                <h3>【W.I.P】バイオハザード3</h3>
+                <h3 style="margin-top: -20px;">日本語フォントHD化MOD</h3>
+
+                <p>ドットの粗い旧作"バイオハザード3"の、ゲーム中の日本語フォントを高画質化するMODです。<br>
+                    GC/Wiiエミュレーター"Dolphin"の使用を前提としています。
+                </p>
+                <div class="btn-wrapper">
+                    <a href="https://www.google.com" target="_blank" class="btn">詳細を見る</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./image/mod2.png" alt="">
+
+                <h3>【W.I.P】首都高バトル0</h3>
+                <h3 style="margin-top: -20px;">疑似Hパターンシフト化CT</h3>
+
+                <p>本来は一段ずつシフトUP/DOWNするところを、擬似的にHパターン化して自在にギアポジションを操作する…<br>
+                    そんな夢を実現したく、CheatEngine用CTファイルを制作しています。<br>PS2エミュレーター"PCSX2"の使用を前提としています。
+                </p>
+                <div class="btn-wrapper">
+                    <a href="https://www.google.com" target="_blank" class="btn">詳細を見る</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./image/project6.png" alt="">
+
+                <h3 style="margin-top: 80px;">Coming soon...</h3>
+            </div>
+        </div>
+    </section>
+    <!--  -->
+    
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact</h2>
+
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" balue="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <!-- <div class="social">
+            <a href="#">
+                <i class="bx bxl-github"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-twitter"></i>
+            </a>
+        </div> -->
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#services">Learned</a>
+            </li>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#mods">MODs</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © Kyohei Okuzaki | All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>
